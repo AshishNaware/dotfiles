@@ -57,3 +57,6 @@ alias cls="clear"
 # Powerlevel10k configuration (reconfirm)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+
+# Go environment
+export PATH=$PATH:$GOPATH/bin
