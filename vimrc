@@ -50,6 +50,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'lambdalisue/fern-hijack.vim'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " If using vim-go, you may add:
